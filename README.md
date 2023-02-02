@@ -23,3 +23,17 @@ Then write this line in the terminal:
 ```
 python3 main.py
 ```
+## How to use:
+When you run the project this is the screen that you will show:
+![Url asking screen](https://github.com/Ahmed101Mohammed/scraping-products/blob/main/photos_to_exeplain/ask-for-url.png)
+
+Then you need to enter an email form [JLood website](https://jlood.com/), like you see in the image down:
+![Put url screen](https://github.com/Ahmed101Mohammed/scraping-products/blob/main/photos_to_exeplain/put-url.png)
+
+When you **Press Enter Button** the program will run with **Wait Screen**:
+![Wait Screen](https://github.com/Ahmed101Mohammed/scraping-products/blob/main/photos_to_exeplain/wait-screen.png)
+
+When the program finish its work and store the data in products.sqlite database then the sentence **"Done, Explore product.sqlite file"** will appear:
+![done sentence](https://github.com/Ahmed101Mohammed/scraping-products/blob/main/photos_to_exeplain/done-screen.png)
+
+> Note! to open **products.sqlite** file you can't open with text editore, you need to have **sqlite browser** app, install it to open your database.
