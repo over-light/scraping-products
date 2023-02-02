@@ -11,9 +11,11 @@ open.execute('CREATE TABLE IF NOT EXISTS products(id INTEGER PRIMARY KEY, title 
 # main algorithm:
 def app(db, handl):
     url = get_url()
+    print(" Wait please for few minuts..")
     url_soup = get_url_soup(url)
     data = get_products_data(url_soup)
     store_products_data(data, db, handl)
+    print(" Done, exeplore products.sqlite file")
 
 
 def get_url():
